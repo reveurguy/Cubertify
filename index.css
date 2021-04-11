@@ -35,7 +35,6 @@ canvas{
     font-size: 1.7em;
     position: absolute;
     z-index: 10;
-    /* width: 50%; */
     height: 65%;
     background: #eee;
     left:20%;
@@ -46,14 +45,12 @@ canvas{
     box-sizing: border-box;
     z-index: 100;
     font-weight: 500;
-    
 }
 p {
   margin-bottom: .3rem;
 }
 
 .panel > h1 {
-  /* font-family: 'Londrina Solid', cursive; */
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
   color: #dc143c;
@@ -116,14 +113,6 @@ canvas {
   font-weight: 600;
   border: .2rem solid steelblue;
 }
-/* .btn-outline-back {
-  color: #fff;
-  margin-right: 1rem;
-  background-color: hotpink;
-  font-weight: 500;
-  border: .2rem solid hotpink;
-} */
-
 .btn-grp {
   z-index: 600;
   position: absolute;
