@@ -10,6 +10,9 @@
     <script type="text/javascript" src="main.js"></script>
 <link rel="icon" href="logo3.png" sizes="64x64" type="image/icon type">
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -141,11 +144,10 @@
 <body>
 
     <div class="btn-grp">
-        <button class="btn btn-outline-primary dropzone" action="/file-upload" id="my-awesome-dropzone"></button>
+        <!-- <button class="btn btn-outline-primary dropzone" action="/file-upload" id="my-awesome-dropzone"></button> -->
         <button class="btn btn-outline-danger" id="download">Download</button>
-        <button class="btn btn-outline-back"><a href="index.html" style="text-decoration: none; color: #fff;"> Back</a></button>
+        <button class="btn btn-outline-primary"><a href="index.html" style="text-decoration: none; color: #fff;"> Back</a></button>
     </div>
-
     
 <canvas id="canvas" resize ></canvas>
 <img width="200" height="200" id="image" style="display: none;"
